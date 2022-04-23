@@ -106,7 +106,7 @@ set_target_properties(Raul PROPERTIES
 if (RAUL_INSTALL_ENABLE_SUBDIRS)
     install(TARGETS Raul EXPORT raul-export)
 else ()
-    install(TARGETS Raul EXPORT raul-export DESTINATION "lib")
+    install(TARGETS Raul EXPORT raul-export DESTINATION ".")
 endif ()
 
 ############################
